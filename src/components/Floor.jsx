@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Floor() {
   return (
@@ -7,7 +8,7 @@ function Floor() {
         <div className="container">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-16">
             <div>
-              <div className="p-7 rounded-xl bg-amber-100 dark:bg-neutral-700/70 hover:bg-amber-300 hover:transition transition-transform hover:scale-105">
+              <div className="p-7 rounded-xl bg-gray-100 dark:bg-neutral-700/70 hover:bg-gray-300 hover:transition transition-transform hover:scale-105">
                 <h3 className="text-xl font-semibold mb-7">FIRST FLOOR</h3>
                 <p className="font-medium leading-7 text-gray-500 mb-6 dark:text-gray-400">
                   We've designed and built ecommerce experiences that have
@@ -23,7 +24,7 @@ function Floor() {
             </div>
 
             <div>
-              <div className="p-7 rounded-xl bg-emerald-100 dark:bg-neutral-700/70 hover:bg-emerald-300 hover:transition transition-transform hover:scale-105">
+              <div className="p-7 rounded-xl bg-gray-100 dark:bg-neutral-700/70 hover:bg-gray-300 hover:transition transition-transform hover:scale-105">
                 <h3 className="text-xl font-semibold mb-7">SECOND FLOOR</h3>
                 <p className="font-medium leading-7 text-gray-500 mb-6 dark:text-gray-400">
                   The ability to independentiy value an enterprise is an
@@ -36,7 +37,7 @@ function Floor() {
             </div>
 
             <div>
-              <div className="p-7 rounded-xl bg-red-100 dark:bg-neutral-700/70 hover:bg-red-300 hover:transition transition-transform hover:scale-105">
+              <div className="p-7 rounded-xl bg-gray-100 dark:bg-neutral-700/70 hover:bg-gray-300 hover:transition transition-transform hover:scale-105">
                 <h3 className="text-xl font-semibold mb-7">THIRD FLOOR</h3>
                 <p className="font-medium leading-7 text-gray-500 mb-6 dark:text-gray-400">
                   Strategic Business Leader is a trainig course from the

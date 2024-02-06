@@ -20,11 +20,13 @@ function Room() {
                    p-10
                    md:px-7
                    xl:px-10
+                   border-[2px]
                    rounded-[20px]
-                   bg-green-300
+                   bg-green-100
                    shadow-md
                    hover:shadow-lg
                    mb-5
+                   hover:bg-green-300
                    hover:transition transition-transform
                    hover:scale-110
                    "
@@ -58,10 +60,10 @@ function Room() {
                 </div>
                 <h4 class="font-semibold text-xl text-dark mb-3">Room 1</h4>
                 <p class="text-body-color">
-                  <span className="font-bold text-md">&#8358;35,000</span>
+                  <span className="font-bold text-md">&#8358;65,000</span>
                 </p>
                 <div className="text-center">
-                  <button class="cursor-pointer w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
+                  <button class="cursor-pointer shadow-xl w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
                     <svg
                       class="animate-spin  hidden group-active:block mx-auto"
                       width="33"
@@ -90,9 +92,11 @@ function Room() {
                    p-10
                    md:px-7
                    xl:px-10
+                   border-[2px]
                    rounded-[20px]
-                   bg-yellow-500
+                   bg-yellow-100
                    shadow-md
+                   hover:bg-yellow-300
                    hover:shadow-lg
                    mb-5
                    hover:transition transition-transform
@@ -129,10 +133,10 @@ function Room() {
                 </div>
                 <h4 class="font-semibold text-xl text-dark mb-3">Room 2</h4>
                 <p class="text-body-color">
-                  <span className="font-bold text-md">&#8358;35,000</span>
+                  <span className="font-bold text-md">&#8358;85,000</span>
                 </p>
                 <div className="text-center">
-                  <button class="cursor-pointer w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
+                  <button class="cursor-pointer shadow-xl w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
                     <svg
                       class="animate-spin  hidden group-active:block mx-auto"
                       width="33"
@@ -161,9 +165,11 @@ function Room() {
                    p-10
                    md:px-7
                    xl:px-10
+                   border-[2px]
                    rounded-[20px]
-                   bg-white
+                   bg-gray-100
                    shadow-md
+                   hover:bg-gray-300
                    hover:shadow-lg
                    mb-5
                    hover:transition transition-transform
@@ -199,10 +205,10 @@ function Room() {
                 </div>
                 <h4 class="font-semibold text-xl text-dark mb-3">Room 3</h4>
                 <p class="text-body-color">
-                  <span className="font-bold text-md">&#8358;35,000</span>
+                  <span className="font-bold text-md">&#8358;75,000</span>
                 </p>
                 <div className="text-center">
-                  <button class="cursor-pointer w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
+                  <button class="cursor-pointer shadow-xl w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
                     <svg
                       class="animate-spin  hidden group-active:block mx-auto"
                       width="33"
@@ -231,9 +237,11 @@ function Room() {
                    p-10
                    md:px-7
                    xl:px-10
+                   border-[2px]
                    rounded-[20px]
-                   bg-white
+                   bg-gray-100
                    shadow-md
+                   hover:bg-gray-300
                    hover:shadow-lg
                    mb-5
                    hover:transition transition-transform
@@ -272,7 +280,7 @@ function Room() {
                   <span className="font-bold text-md">&#8358;35,000</span>
                 </p>
                 <div className="text-center">
-                  <button class="cursor-pointer w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
+                  <button class="cursor-pointer shadow-xl w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
                     <svg
                       class="animate-spin  hidden group-active:block mx-auto"
                       width="33"
@@ -301,9 +309,11 @@ function Room() {
                    p-10
                    md:px-7
                    xl:px-10
+                   border-[2px]
                    rounded-[20px]
-                   bg-white
+                   bg-yellow-100
                    shadow-md
+                   hover:bg-yellow-300
                    hover:shadow-lg
                    mb-5
                    hover:transition transition-transform
@@ -339,10 +349,10 @@ function Room() {
                 </div>
                 <h4 class="font-semibold text-xl text-dark mb-3">Room 5</h4>
                 <p class="text-body-color">
-                  <span className="font-bold text-md">&#8358;35,000</span>
+                  <span className="font-bold text-md">&#8358;60,000</span>
                 </p>
                 <div className="text-center">
-                  <button class="cursor-pointer w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
+                  <button class="cursor-pointer shadow-xl w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
                     <svg
                       class="animate-spin  hidden group-active:block mx-auto"
                       width="33"
@@ -371,9 +381,11 @@ function Room() {
                    p-10
                    md:px-7
                    xl:px-10
+                   border-[2px]
                    rounded-[20px]
-                   bg-white
+                   bg-gray-100
                    shadow-md
+                   hover:bg-gray-300
                    hover:shadow-lg
                    mb-5
                    hover:transition transition-transform
@@ -409,10 +421,10 @@ function Room() {
                 </div>
                 <h4 class="font-semibold text-xl text-dark mb-3">Room 6</h4>
                 <p class="text-body-color">
-                  <span className="font-bold text-md">&#8358;35,000</span>
+                  <span className="font-bold text-md">&#8358;45,000</span>
                 </p>
                 <div className="text-center">
-                  <button class="cursor-pointer w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
+                  <button class="cursor-pointer w-40 h-10 shadow-xl bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
                     <svg
                       class="animate-spin  hidden group-active:block mx-auto"
                       width="33"
