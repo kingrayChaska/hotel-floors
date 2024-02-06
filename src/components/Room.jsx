@@ -1,5 +1,7 @@
 import React from "react";
 import { BsBookmarkStar } from "react-icons/bs";
+import Navbar from "./Navbar";
+import Dash from "./Dash";
 
 function Room() {
   return (
@@ -9,6 +11,10 @@ function Room() {
         href="https://cdn.tailgrids.com/tailgrids-fallback.css"
       />
       <script src="https://cdn.tailwindcss.com"></script>
+      <Navbar />
+      <div className="mx-5">
+        <Dash />
+      </div>
 
       <section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
         <div class="container">
