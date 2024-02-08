@@ -24,7 +24,8 @@ function Dash() {
       <div className="py-2">
         <h1 className="font-bold">
           Building: <span className="text-yellow-400"> CONCREST; </span>
-          Total room: <span className="text-orange-500"> 18</span>
+          Floor name: <span className="text-green-400"> THIRD FLOOR; </span>
+          Total room: <span className="text-orange-500">6</span>
         </h1>
       </div>
     </div>

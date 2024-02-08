@@ -1,7 +1,7 @@
 import React from "react";
 import { BsBookmarkStar } from "react-icons/bs";
 import Navbar from "./Navbar";
-import Dash1 from "./Dashs/Dash1";
+import Dash3 from "./Dashs/Dash3";
 
 function Room() {
   return (
@@ -13,9 +13,9 @@ function Room() {
       <script src="https://cdn.tailwindcss.com"></script>
       <Navbar />
       <div className="mx-5">
-        <Dash1 />
+        <Dash3 />
       </div>
-      <div className="text-2xl font-semibold mt-2 mx-6">FIRST FLOOR:</div>
+      <div className="text-2xl font-semibold mt-2 mx-6">THIRD FLOOR:</div>
       <section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] mx-6">
         <div class="container">
           <div class="flex flex-wrap -mx-4" />
@@ -28,11 +28,11 @@ function Room() {
                    xl:px-10
                    border-[2px]
                    rounded-[20px]
-                   bg-green-200
+                   bg-gray-100
                    shadow-md
                    hover:shadow-lg
                    mb-5
-                   hover:bg-green-300
+                   hover:bg-gray-300
                    hover:transition transition-transform
                    hover:scale-110
                    "
@@ -100,9 +100,9 @@ function Room() {
                    xl:px-10
                    border-[2px]
                    rounded-[20px]
-                   bg-yellow-200
+                   bg-green-200
                    shadow-md
-                   hover:bg-yellow-300
+                   hover:bg-green-300
                    hover:shadow-lg
                    mb-5
                    hover:transition transition-transform
@@ -142,7 +142,7 @@ function Room() {
                   <span className="font-bold text-md">&#8358;85,000</span>
                 </p>
                 <div className="text-center">
-                  <button class="cursor-pointer shadow-xl w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out">
+                  <button class="cursor-pointer shadow-xl w-40 h-10 bg-blue-600 text-white rounded-lg hover:bg-blue-700 hover:shadow-lg transition-all group active:w-11 active:h-11 active:rounded-full active:duration-300 ease-in-out disabled:opacity-50">
                     <svg
                       class="animate-spin  hidden group-active:block mx-auto"
                       width="33"
@@ -245,9 +245,9 @@ function Room() {
                    xl:px-10
                    border-[2px]
                    rounded-[20px]
-                   bg-gray-100
+                   bg-yellow-200
                    shadow-md
-                   hover:bg-gray-300
+                   hover:bg-yellow-300
                    hover:shadow-lg
                    mb-5
                    hover:transition transition-transform
