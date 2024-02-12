@@ -25,7 +25,7 @@ function Dash() {
         <h1 className="font-bold">
           Building: <span className="text-yellow-400"> CONCREST; </span>
           Floor name: <span className="text-green-400"> SECOND FLOOR; </span>
-          Total room: <span className="text-orange-500">6</span>
+          Total room: <span className="text-orange-500">18</span>
         </h1>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 
-function Dash() {
+function SuiteDash1() {
   return (
     <div className="shadow-sm my-5">
       <div className="flex ">
@@ -24,11 +24,13 @@ function Dash() {
       <div className="py-2">
         <h1 className="font-bold">
           Building: <span className="text-yellow-400"> CONCREST; </span>
-          Total room: <span className="text-orange-500">54</span>
+          Floor Name: <span className="text-green-400"> THIRD FLOOR; </span>
+          Room Type: <span className="text-green-400"> EXECUTIVE ROOMS; </span>
+          Total Room: <span className="text-orange-500">6</span>
         </h1>
       </div>
     </div>
   );
 }
 
-export default Dash;
+export default SuiteDash1;
